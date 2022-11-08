@@ -1,0 +1,7 @@
+function information(name, age, grade) {
+    console.log(`Name: ${name}, Age: ${age}, Grade: ${grade.toFixed(2)}`);
+}
+
+information('John', 15, 5.54678);
+information('Steve', 16, 2.1426);
+information('Marry', 12, 6.00);
