@@ -1,0 +1,28 @@
+<!Doctype HTML>
+<html lang="en>
+<head>
+    <meta charset=" UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<title>Demo</title>
+</head>
+
+<body>
+    <h1>Document Object Model Demo</h1>
+    <button onclick="print(3, 5)">Click me</button>
+    <ul>
+        <li>DOM Properties Example</li>
+        <li>DOM Example Methods Example</li>
+    </ul>
+    <input>
+    <script>
+        function edit(ref, match, replacer) {
+            const text = ref.textContent;
+            const result = text.split(match).join(replacer);
+
+            ref.textContent = result;
+        }
+    </script>
+</body>
+
+</html>
